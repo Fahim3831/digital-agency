@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.primary-color{
+    color: rgb(227, 37, 37);
+}
+/* nav styles */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(200, 196, 196, 0.989);
+    padding: 1.5rem;
+}
+.logo-container{
+    display: flex;
+    cursor: pointer;
+}
+.logo-container > h2{
+    color: rgb(181, 77, 77);
+    font-weight: bold;
+    padding-top: 4%;
+    padding-right: 3%;
+}
+.items{
+    display: flex;
+    gap: 20px;
+}
+.item{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(181, 77, 77);
+    padding-top: 2%;
+    cursor: pointer;
+}
+.item:hover{
+    color: rgb(0, 47, 255);
+}
+.item:active{
+    color: red;
+}
+/* banner styles */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/asset/image/background.jpg),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.banner-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.banner-details > h1{
+    font-size: 6rem;
+}
+.banner-details > h1>span{
+    color: rgb(227, 37, 37);
+}
+.description{
+    font-size: larger;
+    font-weight: 500;
+    padding: 1rem;
+}
+.btn{
+    padding: 1rem 2.5rem;
+    margin: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+.btn:active{
+    background-color: rgb(16, 151, 209);
+}
+.btn-discover{
+    background-color: rgb(216, 20, 20);
+    color: white;
+}
+/* Service section styles */
+.service-section{
+    height: 100vh;
+    width: 100%;
+    
+}
